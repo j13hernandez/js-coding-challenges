@@ -14,4 +14,6 @@ const checkNums = function (num1,num2) {
   }
 }
 
+console.log(checkNums(1, 2))
+
 module.exports = checkNums
