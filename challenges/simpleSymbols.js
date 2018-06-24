@@ -5,7 +5,7 @@
 // letter must be surrounded by a + symbol. So the string to the left would be
 // false. The string will not be empty and will have at least one letter.
 
-function SimpleSymbols(str) {
+let simpleSymbols = function (str) {
   for (let i = 0; i < str.length; i++) {
     if (/[a-z]/i.test(str.charAt(i))) {
       if (str.charAt(i-1) != '+' || str.charAt(i+1) != '+') {
@@ -15,3 +15,5 @@ function SimpleSymbols(str) {
   }
   return true
 }
+
+module.exports = simpleSymbols

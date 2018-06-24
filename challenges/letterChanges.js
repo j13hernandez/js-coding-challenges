@@ -4,8 +4,7 @@
 // Then capitalize every vowel in this new string (a, e, i, o, u) and finally
 // return this modified string.
 
-
-function LetterChanges(str) {
+let letterChanges = function (str) {
 
   let upAndUp = str.replace(/[a-z]/gi, function (i) {
       switch(i) {
@@ -19,3 +18,5 @@ function LetterChanges(str) {
   });
          
 }
+
+module.exports = letterChanges

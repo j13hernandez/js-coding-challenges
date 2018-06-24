@@ -3,7 +3,7 @@
 // (ie. if num = 63 then the output should be 1:3). Separate the number of hours
 // and minutes with a colon.
 
-function TimeConvert(num) {
+let timeConvert = function (num) {
 
   let hours = (num / 60)
   let rhours = Math.floor(hours)
@@ -12,3 +12,5 @@ function TimeConvert(num) {
   return rhours + ":" + minutes
          
 }
+
+module.exports = timeConvert

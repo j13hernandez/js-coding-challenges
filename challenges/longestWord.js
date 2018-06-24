@@ -3,8 +3,7 @@
 // two or more words that are the same length, return the first word from the
 // string with that length. Ignore punctuation and assume sen will not be empty.
 
-
-function LongestWord(sen) {
+let longestWord = function (sen) {
 
   let splat = sen.split(' ')
   
@@ -12,6 +11,8 @@ function LongestWord(sen) {
     return b.length - a.length
   })[0]
   
-  return sorty;
+  return sorty
          
 }
+
+module.exports = longestWord

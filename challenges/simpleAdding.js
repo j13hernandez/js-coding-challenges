@@ -3,13 +3,15 @@
 // 1 + 2 + 3 + 4 = 10. For the test cases, the parameter num will be any number
 // from 1 to 1000.
 
-
-function SimpleAdding(num) {
+let simpleAdding = function (num) {
 
   let answer = 0
+  
   for (let i = 0; i <= num; i++) {
       answer = answer + i
   }
-  return answer;
+  return answer
          
 }
+
+module.exports = simpleAdding
