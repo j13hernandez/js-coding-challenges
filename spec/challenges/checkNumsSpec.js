@@ -1,5 +1,5 @@
 describe("Check numbers:", function() {
-  var checkNums = require('../../challenges/checkNums')
+  let checkNums = require('../../challenges/checkNums')
 
   beforeEach(function() {
   })
