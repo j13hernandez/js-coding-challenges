@@ -10,9 +10,9 @@ A repo to store daily coding challenges.
 Testing done with [Jasmine](https://jasmine.github.io/).
 
 ### Challenges
-- Capitalize Letter ([solution](challenges/letterCapitalize.js))
+- Capitalize First Letters ([solution](challenges/letterCapitalize.js))
   - Have the function letterCapitalize(str) take the str parameter being passed and capitalize the first letter of each word. Words will be separated by only one space.
-- Distinct Numbers ([solution](challenges/distinctNumbers.js))
+- Distinct Number ([solution](challenges/distinctNumbers.js))
   - Create a function that takes 3 numbers as parameters and returns a distinct number. 2 of the 3 parameters will always be the same.
 - First Factorial ([solution](challenges/firstFactorial.js))
   - Have the function FirstFactorial(num) take the num parameter being passed and return the factorial of it (e.g. if num = 4, return (4 * 3 * 2 * 1)). For the test cases, the range will be between 1 and 18 and the input will always be an integer.
