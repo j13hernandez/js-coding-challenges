@@ -4,13 +4,14 @@
 // and the input will always be an integer.
 
 
-function FirstFactorial(num) {
+let firstFactorial = function (num) {
 
   let total = 1
   
   for (let i = 1; i <= num; i++) {
       total = total * i
   }
-  return total;
-         
+  return total
 }
+
+module.exports = firstFactorial
