@@ -1,4 +1,4 @@
-# Coding Challenges
+# JavaScript Coding Challenges
 A repo to store daily coding challenges.
 
 ### Instructions
@@ -16,6 +16,8 @@ A repo to store daily coding challenges.
 *Testing done with [Jasmine](https://jasmine.github.io/).*
 
 ### Challenges
+- [Alphabet Soup](challenges/alphabetSoup.js)
+  -Have the function alphabetSoup take the str string parameter being passed and return the string with the letters in alphabetical order (ie. hello becomes ehllo). Assume numbers and punctuation symbols will not be included in the string.
 - [Capitalize First Letters](challenges/letterCapitalize.js)
   - Have the function letterCapitalize take the str parameter being passed and capitalize the first letter of each word. Words will be separated by only one space.
 - [Distinct Number](challenges/distinctNumbers.js)
