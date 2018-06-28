@@ -1,10 +1,16 @@
 describe('Alphabet soup:', function () {
   let alphabetSoup = require('../../challenges/alphabetSoup')
   
-  let str = 'Hello'
+  let str1 = 'waddup'
+  let str2 = 'hello'
   
-  it('Hello should be returned in alphabetical order as eHllo',
+  it('waddup should be returned in alphabetical order as addpuW',
     function () {
-    expect(alphabetSoup(str)).toEqual('eHllo')
+    expect(alphabetSoup(str1)).toEqual('addpuw')
+  })
+  
+  it('hello should be returned in alphabetical order as ehllo',
+    function () {
+    expect(alphabetSoup(str2)).toEqual('ehllo')
   })
 })
