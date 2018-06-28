@@ -5,7 +5,7 @@ and return the string with the letters in alphabetical order
 included in the string.
 */
 
-let alphabetSoup = function () {
+let alphabetSoup = function (str) {
   // Answer here
 }
 
