@@ -30,6 +30,8 @@ A repo to store daily coding challenges.
   - Have the function letterChanges take the str parameter being passed and modify it using the following algorithm. Replace every letter in the string with the letter following it in the alphabet (ie. c becomes d, z becomes a). Then capitalize every vowel in this new string (a, e, i, o, u) and finally return this modified string.
 - [Longest Word](challenges/longestWord.js)
   - Have the function longestWord take the sen parameter being passed and return the largest word in the string. If there are two or more words that are the same length, return the first word from the string with that length. Ignore punctuation and assume sen will not be empty.
+-  [Parity Outlier](challenges/parityOutlier.js)
+  - You are given an array (which will have a length of at least 3, but could be very large) containing integers. The array is either entirely comprised of odd integers or entirely comprised of even integers except for a single integer N. Have the function parityOutlier take the array as an argument and return this "outlier" N.
 - [Number Check](challenges/checkNums.js)
   - Have the function checkNums take two parameters being passed and return the string true if num2 is greater than num1, otherwise return the string false. If the parameter values are equal to each other then return the string -1.
 - [Simple Adding](challenges/simpleAdding.js)
