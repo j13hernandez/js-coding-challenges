@@ -40,5 +40,26 @@ A repo to store daily coding challenges.
   - Have the function simpleSymbols take the str parameter being passed and determine if it is an acceptable sequence by either returning the string true or false. The str parameter will be composed of + and = symbols with several letters between them (ie. ++d+===+c++==a) and for the string to be true each letter must be surrounded by a + symbol. So the string to the left would be false. The string will not be empty and will have at least one letter.
 - [Time Convert](challenges/timeConvert.js)
   - Have the function timeConvert take the num parameter being passed and return the number of hours and minutes the parameter converts to (ie. if num = 63 then the output should be 1:3). Separate the number of hours and minutes with a colon.
-
-**The original version for some these challenges can be found on [CoderByte](https://coderbyte.com/)**.
+- [Tower Builder](challenges/towerBuilder.js)
+  - Have the function towerBuilder take n number of floors and return n number of of tower blocks. The argument will always be an integer greater than zero.
+  - For example, a tower of 3 floors looks like below:
+  ```javascript
+  [
+    '  *  ',
+    ' *** ',
+    '*****'
+  ]
+  ```
+  - A tower of 6 floors looks like below:
+  ```javascript
+  [
+    '     *     ',
+    '    ***    ',
+    '   *****   ',
+    '  *******  ',
+    ' ********* ',
+    '***********'
+  ]
+  ```
+  
+**The original version for these challenges can be found on [CoderByte](https://coderbyte.com/) and [CodeWars](https://www.codewars.com/).**
