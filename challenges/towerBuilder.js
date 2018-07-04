@@ -20,7 +20,7 @@ For example, a tower of 3 floors looks like below:
 ]
 // _____________________________________________________________________________
 
-let towerBuilder = () => {
+let towerBuilder = (nFloors) => {
   // Answer here
 }
 
