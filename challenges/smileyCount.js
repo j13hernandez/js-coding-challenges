@@ -12,9 +12,9 @@ Rules for a smiling face:
   - No additional characters are allowed except for those mentioned.
 */
 // Valid smiley face examples:
-':)' ':D' ';-D' ':~)'
+let valid = [':)', ':D', ';-D', ':~)']
 // Invalid smiley faces:
-';(' ':>' ':}' ':]'
+let invalid = [';(', ':>', ':}', ':]']
 // _____________________________________________________________________________
 
 let smileyCount = function (arr) {
