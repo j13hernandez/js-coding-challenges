@@ -38,6 +38,21 @@ A repo to store daily coding challenges.
   - Have the function simpleAdding add up all the numbers from 1 to num. For example: if the input is 4 then your program should return 10 because 1 + 2 + 3 + 4 = 10. For the test cases, the parameter num will be any number from 1 to 1000.
 - [Simple Symbols](challenges/simpleSymbols.js)
   - Have the function simpleSymbols take the str parameter being passed and determine if it is an acceptable sequence by either returning the string true or false. The str parameter will be composed of + and = symbols with several letters between them (ie. ++d+===+c++==a) and for the string to be true each letter must be surrounded by a + symbol. So the string to the left would be false. The string will not be empty and will have at least one letter.
+- [Smiley Count](challenges/smileyCount.js)
+  - Have the function smileyCount count take the arr parameter being passed and
+  count the number of valid smileys in the array.
+  Rules for a smiling face:
+    - Each smiley face must contain a valid pair of eyes. Eyes can be marked
+    as : or ;
+    - A smiley face can have a nose but it does not have to. Valid characters for
+    a nose are - or ~
+    - Every smiling face must have a smiling mouth that should be marked with
+    either ) or D.
+    - No additional characters are allowed except for those mentioned.
+    - Valid smiley face examples:
+    `':)' ':D' ';-D' ':~)'`
+    - Invalid smiley faces:
+    `';(' ':>' ':}' ':]'`
 - [Time Convert](challenges/timeConvert.js)
   - Have the function timeConvert take the num parameter being passed and return the number of hours and minutes the parameter converts to (ie. if num = 63 then the output should be 1:3). Separate the number of hours and minutes with a colon.
 - [Tower Builder](challenges/towerBuilder.js)
