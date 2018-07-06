@@ -12,13 +12,25 @@ Rules for a smiling face:
   - No additional characters are allowed except for those mentioned.
 */
 // Valid smiley face examples:
-':)' ':D' ';-D' ':~)'
+let valid = [':)', ':D', ';-D', ':~)']
 // Invalid smiley faces:
-';(' ':>' ':}' ':]'
+let invalid = [';(', ':>', ':}', ':]']
 // _____________________________________________________________________________
 
 let smileyCount = function (arr) {
-  // Answer here
+  let count = 0
+  
+  let smiles = [
+    ':D', ';D', ':)', ';)', ':-D', ';-D',
+    ':~D', ';~D', ':-)', ';-)', ':~)', ';~)'
+  ]
+  
+  arr.forEach((val) => {
+    if(smiles.indexOf(val) !== -1) {
+      count++
+    }
+  })
+  return count
 }
 
 module.exports = smileyCount
