@@ -5,6 +5,7 @@ Have the function digitalRoot take a number as an argument and return the sum.
 If that value has two digits, continue reducing in this way until a single-digit
 number is produced. This is only applicable to the natural numbers.
 
+Examples:
 16 =
 1 + 6
 7
