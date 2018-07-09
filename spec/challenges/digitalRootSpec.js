@@ -10,4 +10,9 @@ describe('Digital root:', function () {
     function () {
     expect(digitalRoot(76)).toEqual(4)
   })
+  
+  it('Number passed, 676, should add 6 + 7 + 6, then 1 + 9, then 1 + 0',
+    function () {
+    expect(digitalRoot(676)).toEqual(1)
+  })
 })
