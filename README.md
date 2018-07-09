@@ -20,6 +20,10 @@ A repo to store daily coding challenges.
   - Have the function alphabetSoup take the str string parameter being passed and return the string with the letters in alphabetical order (ie. hello becomes ehllo). Assume numbers and punctuation symbols will not be included in the string.
 - [Capitalize First Letters](challenges/letterCapitalize.js)
   - Have the function letterCapitalize take the str parameter being passed and capitalize the first letter of each word. Words will be separated by only one space.
+- [Digital Root](challenges/digitalRoot.js)
+  - A digital root is the recursive sum of all the digits in a number.
+  - Have the function digitalRoot take a number as an argument and return the sum.
+  - If that value has two digits, continue reducing in this way until a single-digit number is produced. This is only applicable to the natural numbers.
 - [Distinct Number](challenges/distinctNumbers.js)
   - Have the function distNum take 3 numbers as parameters and return the distinct number. 2 of the 3 parameters will always be the same.
 - [First Factorial](challenges/firstFactorial.js)
