@@ -36,6 +36,12 @@ A repo to store daily coding challenges.
   - Have the function longestWord take the sen parameter being passed and return the largest word in the string. If there are two or more words that are the same length, return the first word from the string with that length. Ignore punctuation and assume sen will not be empty.
 - [Parity Outlier](challenges/parityOutlier.js)
   - You are given an array (which will have a length of at least 3, but could be very large) containing integers. The array is either entirely comprised of odd integers or entirely comprised of even integers except for a single integer N. Have the function parityOutlier take the array as an argument and return this "outlier" N.
+- [Narcissistic Number](challenges/narcNumber.js)
+  - A Narcissistic Number is a number which is the sum of its own digits, each raised to the power of the number of digits.
+  - Have the function narcNumber take in a number as a parameter and determine if it is a Narcissistic Number. Your code must return true or false depending upon whether the given number is a Narcissistic number.
+  - Examples:
+    - `153:  1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153 ... True`
+    - `1634: 1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1634 ... True`
 - [Number Check](challenges/checkNums.js)
   - Have the function checkNums take two parameters being passed and return the string true if num2 is greater than num1, otherwise return the string false. If the parameter values are equal to each other then return the string -1.
 - [Simple Adding](challenges/simpleAdding.js)
