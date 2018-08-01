@@ -5,7 +5,7 @@ A repo to store daily coding challenges.
 1. Fork and clone this repository.
 2. Change into new directory.
 3. Install dependencies with `npm install`.
-4. Create and checkout a new branch to work on.
+4. Create and checkout into a new branch to work on.
 
 #### Testing
 - To test solution on a specific file:
