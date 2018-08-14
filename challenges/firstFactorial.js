@@ -7,7 +7,11 @@ integer.
 
 
 let firstFactorial = function (num) {
-  // Answer here
+  let ans = 1;
+  for (let i =1; i <= num; i++) {
+    ans = ans * i;
+  }
+  return ans;
 }
 
 module.exports = firstFactorial
