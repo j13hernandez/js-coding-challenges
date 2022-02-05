@@ -5,8 +5,6 @@ and return the string with the letters in alphabetical order
 included in the string.
 */
 
-let alphabetSoup = function (str) {
-  // Answer here
-}
+const alphabetSoup = (str) => str.split('').sort().join('');
 
-module.exports = alphabetSoup
+module.exports = alphabetSoup;

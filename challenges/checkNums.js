@@ -6,9 +6,14 @@ false.
 If the parameter values are equal to each other, then return the string '-1'.
 */
 
+const checkNums = function (num1, num2) {
+  if (num1 === num2) {
+    return '-1';
+  } else if (num1 < num2) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
-const checkNums = function (num1,num2) {
-// Answer here
-}
-
-module.exports = checkNums
+module.exports = checkNums;

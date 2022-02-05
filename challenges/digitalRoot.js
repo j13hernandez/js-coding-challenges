@@ -17,9 +17,18 @@ Examples:
 6
 */
 
-
 let digitalRoot = (n) => {
   // Answer here
-}
+  let number = 0;
+  for (let int of String(n)) {
+    number += Number(int);
+  }
+  if (String(number).length !== 1) {
+    return digitalRoot(number);
+  }
+  return number;
+};
 
-module.exports = digitalRoot
+console.log(digitalRoot(942));
+
+module.exports = digitalRoot;

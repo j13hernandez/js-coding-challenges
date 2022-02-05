@@ -5,9 +5,13 @@ cases, the range will be between 1 and 8 and the input will always be an
 integer.
 */
 
-
 let firstFactorial = function (num) {
   // Answer here
-}
+  let total = 1;
+  for (i = 1; i <= num; i++) {
+    total *= i;
+  }
+  return total;
+};
 
-module.exports = firstFactorial
+module.exports = firstFactorial;
